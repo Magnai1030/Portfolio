@@ -6,4 +6,11 @@ declare namespace App {
 	// interface Locals {}
 	// interface PageData {}
 	// interface Platform {}
+	interface TextContainerProps {
+		text: string[];
+	}
+}
+declare module '*.glb' {
+	const src: string;
+	export default src;
 }
