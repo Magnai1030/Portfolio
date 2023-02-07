@@ -1,13 +1,12 @@
 <script lang="ts">
 	import type { HomeText } from '$lib/types';
-	import { isArray } from 'lodash';
 	export let text: string | HomeText[];
 </script>
 
 <div
 	class="flex w-full border-primary p-4 rounded-md px-20 justify-center place-items-center bg-white"
 >
-	{#if isArray(text)}
+	{#if Array.isArray(text)}
 		<div class="flex w-full flex-col">
 			{#each text as item}
 				<p class="font-sans text-base text-black font-normal py-1">
