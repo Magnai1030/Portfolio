@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import * as THREE from 'three';
 	import * as SC from 'svelte-cubed';
 
@@ -12,7 +12,7 @@
 	});
 </script>
 
-<section class="flex w-full relative h-auto rounded-t-lg pt-5">
+<section class="flex w-full relative h-auto">
 	<section class="flex w-full relative h-96">
 		​<SC.Canvas antialias background={new THREE.Color('#FAF7F5')}>
 			<SC.Mesh

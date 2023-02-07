@@ -17,15 +17,19 @@ module.exports = {
 			serif: ['Roboto-Serif', 'serif']
 		},
 		borderRadius: {
-			lg: '20px',
-			md: '10px'
+			xxl: '20px',
+			xl: '12px',
+			lg: '11px',
+			md: '10px',
+			sm: '4px'
 		},
 		borderWidth: {
 			md: '1px'
 		},
 		fontSize: {
-			lg: '35px',
-			md: '22px',
+			xl: '39px',
+			lg: '22px',
+			md: '19px',
 			base: '16px'
 		},
 		fontWeight: {
@@ -35,15 +39,23 @@ module.exports = {
 		},
 		extend: {
 			width: {
-				customFull: '960px'
+				customFull: '960px',
+				48: '48px',
+				46: '46px',
+				40: '40px'
 			},
 			padding: {
+				10: '10px',
 				20: '20px',
 				40: '40px',
-				60: '60px'
+				60: '60px',
+				56: '56px'
 			},
 			height: {
-				core: '56px'
+				core: '56px',
+				40: '40px',
+				24: '24px',
+				22: '22px'
 			}
 		}
 	},

@@ -7,6 +7,11 @@ export default {
 	common: {
 		full_name: 'Batmagnai Munkhnasan',
 		position: 'Front-End Developer (Web / Mobile / UI / UX)',
+		header: {
+			logo: null,
+			projects: 'Projects',
+			contact: 'Contact'
+		},
 		footer: {
 			title: 'You can find me on',
 			text: [

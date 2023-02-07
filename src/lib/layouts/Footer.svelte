@@ -1,12 +1,13 @@
-<script>
+<script lang="ts">
 	import text from '$lib/constants/text';
 	const { common } = text;
 </script>
 
 <footer
+	id="footer"
 	class="flex flex-col w-full md:w-customFull p-20 sm:p-40 md:p-60 justify-center place-items-start"
 >
-	<p class="font-sans text-md text-black font-normal">{common.footer.title}</p>
+	<p class="font-sans text-lg text-black font-normal">{common.footer.title}</p>
 	<div class="flex flex-col p-5">
 		{#each common.footer.text as item}
 			<a
