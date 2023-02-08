@@ -1,9 +1,11 @@
-import adapter from '@sveltejs/adapter-static';
+import { adapter } from 'sveltekit-adapter-aws';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 export default {
 	preprocess: vitePreprocess(),
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			autoDeploy: true,
+		})
 	}
 };
