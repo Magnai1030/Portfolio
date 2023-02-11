@@ -1,13 +1,9 @@
-import { adapter } from 'sveltekit-adapter-aws';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 export default {
 	preprocess: vitePreprocess(),
 	kit: {
-		adapter: adapter({
-			autoDeploy: true,
-			FQDN: 'master.d3pe4hc2rs38c5.amplifyapp.com',
-			stackName: 'd3pe4hc2rs38c5.amplifyapp.com'
-		})
+		adapter: adapter({ fallback: 'index.html' })
 	}
 };
