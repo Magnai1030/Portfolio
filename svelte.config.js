@@ -6,8 +6,8 @@ export default {
 	kit: {
 		adapter: adapter({
 			autoDeploy: true,
-			FQDN: 'master.d3kowqfushzw1f.amplifyapp.com',
-			stackName: 'sveltekit-adapter-aws-basic-demo'
+			FQDN: 'master.d3pe4hc2rs38c5.amplifyapp.com',
+			stackName: 'd3pe4hc2rs38c5.amplifyapp.com'
 		})
 	}
 };
