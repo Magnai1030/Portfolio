@@ -2,13 +2,16 @@ import github from '$lib/assets/icons/ic_github.svg';
 import instagram from '$lib/assets/icons/ic_instagram.svg';
 import linkedin from '$lib/assets/icons/ic_linkedin.svg';
 import dribbble from '$lib/assets/icons/ic_dribbble.svg';
+import prime from '$lib/assets/images/img_photo.jpg';
+import icon from '$lib/assets/icons/ic_logo.svg';
+
 
 export default {
 	common: {
 		full_name: 'Batmagnai Munkhnasan',
 		position: 'Front-End Developer (Web / Mobile / UI / UX)',
 		header: {
-			logo: null,
+			logo: icon,
 			projects: 'Projects',
 			contact: 'Contact'
 		},

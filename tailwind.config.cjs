@@ -10,7 +10,8 @@ module.exports = {
 			white: '#FFFFFF',
 			black: '#200F29',
 			neatralLight: '#FAF7F5',
-			neatralMedium: '#E7E2DF'
+			neatralMedium: '#E7E2DF',
+			violet: '#C16E7D',
 		},
 		fontFamily: {
 			sans: ['Outfit', 'sans-serif'],
@@ -42,6 +43,7 @@ module.exports = {
 				customFull: '960px',
 				48: '48px',
 				46: '46px',
+				44: '44px',
 				40: '40px'
 			},
 			padding: {
@@ -55,7 +57,8 @@ module.exports = {
 				core: '56px',
 				40: '40px',
 				24: '24px',
-				22: '22px'
+				22: '22px',
+				20: '20px'
 			}
 		}
 	},

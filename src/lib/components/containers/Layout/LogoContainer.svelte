@@ -6,7 +6,9 @@
 	{#if logo === null}
 		<div class="bg-neatralMedium h-40 w-40 rounded-sm" />
 	{:else}
-		<div class="bg-neatralMedium h-40 w-40 rounded-sm" />
+		<div class="h-40 w-40 rounded-sm hover:rotate-45 hover:scale-150 transition-transform">
+			<img src={logo} alt={'source'} class="w-full h-full object-cover rounded-sm" />
+		</div>
 	{/if}
 
 	<p class="text-black text-md font-medium ml-2 hidden sm:flex">Batmagnai Munkhnasan</p>

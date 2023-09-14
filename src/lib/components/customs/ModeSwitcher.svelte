@@ -16,10 +16,10 @@
 	on:click={onPress}
 >
 	{#if state}
-		<div class="w-46 h-22 bg-white rounded-lg flex justify-center place-items-center">
-			<img src={sun} alt={'sun'} />
+		<div class="w-46 h-22 hover:w-44 hover:h-20 transition-transform bg-white rounded-lg flex justify-center place-items-center">
+			<img src={moon} alt={'moon'} />
 		</div>
 	{:else}
-		<img src={moon} alt={'moon'} />
+		<img src={sun} alt={'sun'} />
 	{/if}
 </button>
