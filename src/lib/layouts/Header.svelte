@@ -17,11 +17,11 @@
 	>
 		<div class="flex justify-center place-items-center">
 			<LogoContainer logo={common.header.logo} />
-			<a class="text-black hover:text-violet text-md font-normal ml-4 sm:ml-8 mr-2 sm:mr-4 transition-all" href="/projects">
+			<a class="text-black hover:text-violet text-md font-normal ml-4 sm:ml-8 mr-2 sm:mr-4 transition-colors" href="/projects">
 				{common.header.projects}
 			</a>
 			<a
-				class="text-black hover:text-violet text-md font-normal mx-2 sm:mx-4"
+				class="text-black hover:text-violet text-md font-normal mx-2 sm:mx-4 transition-colors"
 				href="#footer"
 				on:click|preventDefault={scrollIntoView}>{common.header.contact}</a
 			>

@@ -14,9 +14,9 @@
 				target="_blank"
 				rel="noreferrer"
 				href={item.link}
-				class="flex w-full flex-row justify-start place-items-center mt-5 cursor-pointer"
+				class="flex w-full flex-row justify-start place-items-center mt-5 cursor-pointer group"
 			>
-				<img src={item.icon} alt={item.text} class="mr-2" />
+				<img src={item.icon} alt={item.text} class="mr-2 group-hover:rotate-12 transition-transform" />
 				<p class="font-sans text-base text-black font-normal">{item.text}</p>
 			</a>
 		{/each}

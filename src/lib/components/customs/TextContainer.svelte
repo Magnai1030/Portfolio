@@ -10,7 +10,7 @@
 		<div class="flex w-full flex-col">
 			{#each text as item}
 				<p class="font-sans text-base text-black font-normal py-1">
-					<b class="text-lg text-black font-bold">{item.first}</b>{' '}{item.last}
+					<b class="text-lg text-violet font-bold">{item.first}</b>{' '}{item.last}
 				</p>
 			{/each}
 		</div>
